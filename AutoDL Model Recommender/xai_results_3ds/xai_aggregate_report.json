@@ -1,0 +1,102 @@
+[
+    {
+        "Dataset_ID": 3,
+        "Dataset_Name": "kr-vs-kp",
+        "Test_Accuracy": 0.99375,
+        "Top_5_SHAP_Features": [
+            "wknck_f",
+            "rimmx_f",
+            "bxqsq_f",
+            "wkpos_f",
+            "bkxbq_f"
+        ],
+        "LIME_Summary": [
+            [
+                "-1.51 < bxqsq_f <= 0.66",
+                0.2115196042421346
+            ],
+            [
+                "katri_w <= -0.40",
+                -0.20205032629992353
+            ],
+            [
+                "wtoeg_t <= -0.57",
+                -0.06253052729950005
+            ],
+            [
+                "wkpos_f <= -0.60",
+                0.051883223106565145
+            ],
+            [
+                "-1.28 < wknck_f <= 0.78",
+                -0.03748932136679556
+            ]
+        ],
+        "Insight_Report": "LLM call failed. Showing fallback report.\n\n## 1. Model Performance Summary\n- Model Type: Deep Learning MLP\n- Task: Classification\n- Test Accuracy/Fitness: N/A\n\n## 2. Key Insights from Feature Importance\n- Top SHAP features: wknck_f, rimmx_f, bxqsq_f, wkpos_f, bkxbq_f\n\n## 3. Recommendations for Model Improvement\n- Tune learning rate, batch size, and hidden dimensions further.\n- Consider more training data and feature engineering.\n\n## 4. Limitations and Considerations\n- Explanation quality depends on model stability and feature quality.\n- LIME local explanations may vary per instance."
+    },
+    {
+        "Dataset_ID": 11,
+        "Dataset_Name": "balance-scale",
+        "Test_Accuracy": 0.96,
+        "Top_5_SHAP_Features": [
+            "left-distance",
+            "left-weight",
+            "right-distance",
+            "right-weight"
+        ],
+        "LIME_Summary": [
+            [
+                "left-weight <= -0.71",
+                -0.38267174912393087
+            ],
+            [
+                "right-weight <= -0.71",
+                0.35268601322820625
+            ],
+            [
+                "0.00 < right-distance <= 0.71",
+                -0.20926276699137497
+            ],
+            [
+                "-0.71 < left-distance <= 0.00",
+                0.036318002063330114
+            ]
+        ],
+        "Insight_Report": "LLM call failed. Showing fallback report.\n\n## 1. Model Performance Summary\n- Model Type: Deep Learning MLP\n- Task: Classification\n- Test Accuracy/Fitness: N/A\n\n## 2. Key Insights from Feature Importance\n- Top SHAP features: left-distance, left-weight, right-distance, right-weight\n\n## 3. Recommendations for Model Improvement\n- Tune learning rate, batch size, and hidden dimensions further.\n- Consider more training data and feature engineering.\n\n## 4. Limitations and Considerations\n- Explanation quality depends on model stability and feature quality.\n- LIME local explanations may vary per instance."
+    },
+    {
+        "Dataset_ID": 15,
+        "Dataset_Name": "breast-w",
+        "Test_Accuracy": 0.9714285714285714,
+        "Top_5_SHAP_Features": [
+            "Bare_Nuclei",
+            "Clump_Thickness",
+            "Normal_Nucleoli",
+            "Bland_Chromatin",
+            "Cell_Shape_Uniformity"
+        ],
+        "LIME_Summary": [
+            [
+                "Clump_Thickness > 0.56",
+                0.2394218351336517
+            ],
+            [
+                "Bland_Chromatin > 0.44",
+                0.18200006704206642
+            ],
+            [
+                "Normal_Nucleoli > 0.37",
+                0.1712960588547741
+            ],
+            [
+                "Cell_Size_Uniformity > 0.61",
+                0.13739460706892595
+            ],
+            [
+                "-0.74 < Cell_Shape_Uniformity <= 0.60",
+                -0.13005535691857043
+            ]
+        ],
+        "Insight_Report": "LLM call failed. Showing fallback report.\n\n## 1. Model Performance Summary\n- Model Type: Deep Learning MLP\n- Task: Classification\n- Test Accuracy/Fitness: N/A\n\n## 2. Key Insights from Feature Importance\n- Top SHAP features: Bare_Nuclei, Clump_Thickness, Normal_Nucleoli, Bland_Chromatin, Cell_Shape_Uniformity\n\n## 3. Recommendations for Model Improvement\n- Tune learning rate, batch size, and hidden dimensions further.\n- Consider more training data and feature engineering.\n\n## 4. Limitations and Considerations\n- Explanation quality depends on model stability and feature quality.\n- LIME local explanations may vary per instance."
+    }
+]
